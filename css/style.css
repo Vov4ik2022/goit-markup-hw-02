@@ -1,3 +1,50 @@
-body {
-    color: red;
+/* цвета основного текста #212121
+втоичный цвет текста #757575
+ белый #FFFFFF
+ черный #000000
+ голубой #2196F3
+ color: rgba(255, 255, 255, 0.6)  */
+
+/* цвет фона
+белый background: #FFFFFF
+
+вторичный цвет фона
+не белый background: #F5F4FA
+не черный background: #2F303A */
+
+
+/* убираем точечки */
+ul {
+    list-style: none;
 }
+/* Основные параметры (цвет и фон) */
+body {
+    background-color: #FFFFFF;
+    color: #212121;
+}
+
+
+/* __________Верхня частина ХЕДЕР__________ */
+.menu-navigations .navigator {
+    color: #212121;
+}
+.menu-navigations .navigator:hover,
+.menu-navigations .navigator:focus {
+    color: #2196F3;
+}
+
+.navigator {
+
+}
+
+.menu-info .info {
+    color:#757575 
+}
+.menu-info .info:hover,
+.menu-info .info:focus {
+    color: #2196F3;
+}
+
+ .info {
+
+ }
