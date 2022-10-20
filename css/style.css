@@ -21,22 +21,31 @@ ul {
 body {
     background-color: #FFFFFF;
     color: #212121;
+    font-family: Roboto, sans-serif;
 }
 
 
-/* __________Верхня частина ХЕДЕР__________ */
-.menu-navigations .navigator {
+/* ____________________________Верхня частина ХЕДЕР (NAV)___________________________ */
+.logo-header {
+    color: #2196F3;
+}
+.logo-span {
+   color: #000; 
+}
+/* ------------------------------------------ */
+
+.site-nav .link {
     color: #212121;
 }
-.menu-navigations .navigator:hover,
-.menu-navigations .navigator:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: #2196F3;
 }
 
-.navigator {
+.link {
 
 }
-
+/* ------------------------------------------- */
 .menu-info .info {
     color:#757575 
 }
@@ -48,3 +57,48 @@ body {
  .info {
 
  }
+ /* --------------------------------------------- */
+
+ /* ____________________Секція 1/4 (Герой - HERO) Main______________________ */
+
+ .hero {
+
+ }
+
+ .hero-title {
+
+ }
+
+
+ /* ____________________Секція 2/4 (Перевага - ADVANTAGE)___________________  */
+.advantage {
+
+}
+
+.advantage-title {
+
+}
+
+.advantage-description {
+    
+}
+
+
+ /* ____________________Секція 3/4 (Послуги - SERVICES)_____________________ */
+ .section {
+
+ }
+
+.section-title {
+
+}
+
+
+ /* ____________________Секція 4/4 (Команда - TEAM)_________________________ */
+.section {
+
+}
+
+.section-title {
+
+}
