@@ -1,21 +1,12 @@
-/* цвета основного текста #212121
-втоичный цвет текста #757575
- белый #FFFFFF
- черный #000000
- голубой #2196F3
- color: rgba(255, 255, 255, 0.6)  */
-
-/* цвет фона
-белый background: #FFFFFF
-
-вторичный цвет фона
-не белый background: #F5F4FA
-не черный background: #2F303A */
 
 
 /* убираем точечки */
-ul {
+.list {
     list-style: none;
+}
+
+.link {
+    text-decoration: none;
 }
 /* Основные параметры (цвет и фон) */
 body {
@@ -25,27 +16,44 @@ body {
 }
 
 
-/* ____________________________Верхня частина ХЕДЕР (NAV)___________________________ */
-.logo-header {
-    color: #2196F3;
+/* _______LOGO_____________________Верхня частина ХЕДЕР (NAV)___________________________ */
+.header-section {
+    background-color: #ECECEC;
 }
-.logo-span {
+
+.logo {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+}
+.logo-header {
    color: #000; 
 }
-/* ------------------------------------------ */
 
-.site-nav .link {
+
+/* -----NAV------------------------------------- */
+
+.nav-site,
+.nav-link,
+.info {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+
+.nav-site .nav-link:hover,
+.nav-site .nav-link:focus {
     color: #2196F3;
 }
 
-.link {
 
-}
-/* ------------------------------------------- */
+/* ---------SITE----------*/
 .menu-info .info {
     color:#757575 
 }
@@ -54,51 +62,175 @@ body {
     color: #2196F3;
 }
 
- .info {
 
- }
  /* --------------------------------------------- */
 
  /* ____________________Секція 1/4 (Герой - HERO) Main______________________ */
 
  .hero {
-
+    color: #FFFFFF;
+    background-color: #2F303A;
  }
 
  .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+ }
 
+.hero-btn {
+    background-color: #2196F3;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
  }
 
 
- /* ____________________Секція 2/4 (Перевага - ADVANTAGE)___________________  */
-.advantage {
+ /* ____________________Секція 2/4 (Перевага)__________________________________  */
 
-}
+ .feature-list {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+ }
 
-.advantage-title {
-
-}
-
-.advantage-description {
-    
-}
+ .title {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+ }
 
 
  /* ____________________Секція 3/4 (Послуги - SERVICES)_____________________ */
- .section {
-
- }
+ 
 
 .section-title {
-
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 
  /* ____________________Секція 4/4 (Команда - TEAM)_________________________ */
-.section {
-
+.section-team {
+    background-color: #F5F4FA ;
+    color: #212121;
 }
 
-.section-title {
-
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
+
+.team-name {
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-list {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;  
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+
+/* _____________________Нижня частина ФУТЕР__________________________________ */
+
+.footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+    
+}
+
+.footer-logo {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+ /* span */
+.logotip {
+    color: #FFFFFF 
+} 
+
+
+.adres {
+    font-style: normal;
+}
+
+.footer-address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.footer-address:hover,
+.footer-address:focus {
+    color: #2196F3;
+}
+
+
+.footer-info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);     
+    cursor: pointer;                       
+}
+
+.footer-info:hover,
+.footer-info:focus {
+    color: #2196F3;
+}
+
+
+
+/* _______________________________________________________________________
+______________________portfolio________________________________________ */
+
+.visually-hidden {
+    position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+   }
+   /* скрить заголовок
+   _______________________________________________________________________ */
