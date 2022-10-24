@@ -74,6 +74,10 @@ body {
 
 .header-contact {
     color: var(--color-font-contact-p);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
 }
 
 .header-contact:hover,
@@ -108,6 +112,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    font-family: inherit;
 }
 
 /* -----------------------------Секція 2/4 (Перевага)------------------- */
@@ -115,7 +120,6 @@ body {
 /* заглавие */
 .advantage-title {
     color: var(--color-font-h2-h3-name);
-    font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
@@ -125,7 +129,6 @@ body {
 /* описание */
 .advantage-description {
     color: var(--color-font-contact-p);
-    font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -136,7 +139,6 @@ body {
 /* заглавие */
 .services-title {
     color: var(--color-font-h2-h3-name);
-    font-weight: 700;
     font-size: 36px;
     line-height: cflc(42 / 36);
     text-align: center;
@@ -158,7 +160,6 @@ body {
 /* заглавие */
 .team-title {
     color: var(--color-font-h2-h3-name);
-    font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     text-align: center;
@@ -178,7 +179,6 @@ body {
 /* должность */
 .team-department {
     color: var(--color-font-contact-p);
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
@@ -262,17 +262,17 @@ ______________________portfolio________________________________________ */
 }
 
 /* секція фільтров кнопок */
-.page-title {
+
+.btn-filter {
+    color: var(--color-font-h2-h3-name);
+    background-color: var(--background-color-team);
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
     text-align: center;
     letter-spacing: 0.03em;
+    font-family: inherit;
     cursor: pointer;
-}
-.btn-filter {
-    color: var(--color-font-h2-h3-name);
-    background-color: var(--background-color-team);
   }
 
  .btn-filter:hover,
@@ -286,7 +286,6 @@ ______________________portfolio________________________________________ */
 /* h2 */
 .gallery-title {
     color: var(--color-font-h2-h3-name);
-    font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
     letter-spacing: 0.06em;
@@ -296,7 +295,6 @@ ______________________portfolio________________________________________ */
 
 .gallery-list {
     color: var(--color-font-contact-p);
-    font-weight: 400;
     font-size: 16px;
     line-height: calc(30 / 16);
     letter-spacing: 0.03em;
